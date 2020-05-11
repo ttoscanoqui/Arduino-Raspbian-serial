@@ -19,7 +19,7 @@ And its not neccesary connect the raspberry pi to a monitor with keyboard and mo
 #### And both archives save in the sd card of the raspbian system of your raspberry.
 ## Arduino file
         Its a simple example of analog acquire  and write in serial
-        Maybe you can write any differents analog acquired values from analog sensors.
+        Maybe you can write any differents analog acquired values from analog sensors.
         The only condition to this project, is separate the values by a comma
 ## Python file
         This code, adquiere signals by serial sending from an arduino, and upload to thingspeak service
