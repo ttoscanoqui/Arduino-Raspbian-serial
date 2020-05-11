@@ -20,7 +20,7 @@ And its not neccesary connect the raspberry pi to a monitor with keyboard and mo
 ## Arduino file
         Its a simple example of analog acquire  and write in serial
         Maybe you can write any differents analog acquired values from analog sensors.
-        The only condition to this project, is separate the values by a comma
+        The only condition to this project, is separate the values by a comma
 ## Python file
         This code, adquiere signals by serial sending from an arduino, and upload to thingspeak service
         This is a simple IoT project, that use free code to monitored values in differents process
