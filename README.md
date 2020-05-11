@@ -7,7 +7,14 @@ And its not neccesary connect the raspberry pi to a monitor with keyboard and mo
         ssh 
         without extenssion and code inside; this archive only enable the ssh protoccol of the raspberry.
 ### The second is wpa_supplicant.conf and the code is:
-        # /etc/wpa_supplicant/wpa_supplicant.conf                                                                                                 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev                                                                                   update_config=1                                                                                                                           network={                                                                                                                                 ssid="SSID name"                                                                                                                           psk="wi-fi  password"                                                                                                                     key_mgmt=WPA-PSK                                                                                                                           }
+        # /etc/wpa_supplicant/wpa_supplicant.conf
+        ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev                        
+        update_config=1                                                                                                      
+        network={                                                                                               
+        ssid="SSID name"                                                                                          
+        psk="wi-fi  password"                                                                                   
+        key_mgmt=WPA-PSK                                                                                                      
+        }
 
 #### And both archives save in the sd card of the raspbian system of your raspberry.
 
