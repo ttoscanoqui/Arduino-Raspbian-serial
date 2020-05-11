@@ -25,4 +25,4 @@ And its not neccesary connect the raspberry pi to a monitor with keyboard and mo
         This code, adquiere signals by serial sending from an arduino, and upload to thingspeak service.
         This is a simple IoT project, that use free code to monitored values in differents process.
         
-### NOTE: you can create multiple networks configuration in the supplicant archive.
+### NOTE: you can create multiple networks configuration in the supplicant file.
